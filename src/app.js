@@ -36,6 +36,14 @@ app.get('/', (req, res) => {
   res.sendfile('./public/index.html');
 });
 
+app.get('/cadastro/item', (req, res) => {
+  res.sendfile('./public/cadastro/item.html');
+});
+
+app.get('/home', (req, res) => {
+  res.sendfile('./public/home.html');
+});
+
 
 app.listen(app.get('port'), () => {
   console.log(`server on port ${app.get('port')}`);
