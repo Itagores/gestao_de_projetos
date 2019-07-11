@@ -1,7 +1,7 @@
 {
-  "name": "Gestão de Projetos",
+  "name": "Gestao_de_Projetos",
   "version": "1.0.0",
-  "description": "Projeto da disciplina de Gestão de Projeto ministrada na UFERSA período 2019.1",
+  "description": "Projeto da disciplina de Gestao de Projeto ministrada na UFERSA periodo 2019.1",
   "main": "index.js",
   "dependencies": {
     "ejs": "^2.5.9",
