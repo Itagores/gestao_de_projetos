@@ -1,13 +1,16 @@
 {
-  "name": "Gestao_de_Projetos",
+  "name": "gestao-de-projetos",
   "version": "1.0.0",
   "description": "Projeto da disciplina de Gestao de Projeto ministrada na UFERSA periodo 2019.1",
   "main": "index.js",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "ejs": "^2.5.9",
     "express": "^4.16.3",
+    "method-override": "^3.0.0",
     "mongoose": "^5.0.15",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.0",
+    "s": "^0.1.1"
   },
   "devDependencies": {
     "nodemon": "^1.17.3"
